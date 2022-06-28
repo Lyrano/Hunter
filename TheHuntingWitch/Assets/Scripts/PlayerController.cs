@@ -3,12 +3,11 @@ using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
-    /*public Camera cam;
+    public Camera cam;
 
     public NavMeshAgent agent;
 
-    Interactable interactable;
-    */
+    //Interactable interactable;
 
 
     //void FaceTarget();
@@ -18,7 +17,7 @@ public class PlayerController : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
     }*/
 
-  /*  // Update is called once per frame
+    // Update is called once per frame
     public void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -28,10 +27,10 @@ public class PlayerController : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                Interactable interactable = hit.collider.GetComponent<Interactable>();
+                //Interactable interactable = hit.collider.GetComponent<Interactable>();
                 agent.SetDestination(hit.point);
             }
         }
     }
 
-*/}
+}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemButton : MonoBehaviour
-{/*
+{
     [SerializeField]
     GameObject[] items;
    
@@ -41,4 +41,4 @@ public class ItemButton : MonoBehaviour
             itemActive = false; 
         }
     }
-*/}
+}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class InteractWith : MonoBehaviour
-{/*
+{
     [SerializeField]
     ItemButton ib;
 
@@ -18,4 +18,4 @@ public class InteractWith : MonoBehaviour
         }
 
     }
-*/}
+}
