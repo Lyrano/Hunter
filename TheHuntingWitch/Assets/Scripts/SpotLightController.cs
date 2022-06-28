@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SpotLightController : MonoBehaviour
-{/*
+{
     public Transform target;
 
     public Vector3 offset;
@@ -16,4 +16,4 @@ public class SpotLightController : MonoBehaviour
         transform.position = target.position - offset * currentZoom;
         transform.LookAt(target.position + Vector3.up * pitch);
     }
-*/}
+}
