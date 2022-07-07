@@ -38,8 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.17276807, g: 0.21589197, b: 0.29782572, a: 1}
+=======
   m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589246, b: 0.2978263, a: 1}
+>>>>>>> 08344a80aee0d67d3f46f5d5894f8fa3679da6c5
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4081,8 +4084,11 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
+<<<<<<< HEAD
   m_Speed: 1
+=======
   m_Speed: 2
+>>>>>>> 08344a80aee0d67d3f46f5d5894f8fa3679da6c5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
