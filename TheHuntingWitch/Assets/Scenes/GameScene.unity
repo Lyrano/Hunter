@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414738, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -137,18 +137,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d8320d4c310e5f48b9c535d785c41aa,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.5246
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d8320d4c310e5f48b9c535d785c41aa,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.5246
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d8320d4c310e5f48b9c535d785c41aa,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.5246
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d8320d4c310e5f48b9c535d785c41aa,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1945.2296
+      value: -13.221
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d8320d4c310e5f48b9c535d785c41aa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d8320d4c310e5f48b9c535d785c41aa,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 81474.12
+      value: 77.755
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d8320d4c310e5f48b9c535d785c41aa,
         type: 3}
@@ -185,10 +200,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6093592463355912122, guid: 0d8320d4c310e5f48b9c535d785c41aa,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91f200be9b7b036458264ca51d183a56, type: 2}
+    - target: {fileID: -4683669308469848369, guid: 0d8320d4c310e5f48b9c535d785c41aa,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91f200be9b7b036458264ca51d183a56, type: 2}
+    - target: {fileID: -1461304994638716399, guid: 0d8320d4c310e5f48b9c535d785c41aa,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91f200be9b7b036458264ca51d183a56, type: 2}
+    - target: {fileID: -678588488315902003, guid: 0d8320d4c310e5f48b9c535d785c41aa,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91f200be9b7b036458264ca51d183a56, type: 2}
+    - target: {fileID: 882129737928793925, guid: 0d8320d4c310e5f48b9c535d785c41aa,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6c9d79d643fc9b14db5f9495f6c5b28b, type: 2}
     - target: {fileID: 919132149155446097, guid: 0d8320d4c310e5f48b9c535d785c41aa,
         type: 3}
       propertyPath: m_Name
       value: Finished Labyrinth_Modell_unity
       objectReference: {fileID: 0}
+    - target: {fileID: 7339356831882890532, guid: 0d8320d4c310e5f48b9c535d785c41aa,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 194cd2342441a114da9b95c91b293a53, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d8320d4c310e5f48b9c535d785c41aa, type: 3}
+--- !u!1 &2045643919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2045643922}
+  - component: {fileID: 2045643921}
+  - component: {fileID: 2045643920}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!154 &2045643920
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045643919}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: 2c3f27aab13c93543ad761bd7590e366, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &2045643921
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045643919}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: 2c3f27aab13c93543ad761bd7590e366, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 2100000, guid: 81d562d5613ebf7418d1c6049610917e, type: 2}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+--- !u!4 &2045643922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045643919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -478.6, y: 5.3, z: -516}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
