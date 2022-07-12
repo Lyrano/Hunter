@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1007
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 421}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 67
+  controlID: 71
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 20
+  controlID: 61
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 21
+  controlID: 62
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -348,21 +348,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assets
+    - Assets/Assets/Textures/Hedge
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Assets
+  - Assets/Assets/Textures/Hedge
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Lena\Documents\Hunter\Hunter\TheHuntingWitch
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fa720000
-    m_LastClickedID: 29434
+    m_SelectedIDs: 1e750000
+    m_LastClickedID: 29982
     m_ExpandedIDs: 00000000e4720000e6720000e8720000ea720000ec720000ee720000f0720000f2720000f4720000f6720000f8720000fa72000006750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -521,7 +521,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 1e750000
       m_LastClickedID: 0
       m_ExpandedIDs: 20faffff
       m_RenameOverlay:
@@ -773,9 +773,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -17.077414, y: -99.1216, z: 168.81314}
+    m_Target: {x: -136.37936, y: 1.3550854, z: 19.082737}
     speed: 2
-    m_Value: {x: -17.077414, y: -99.1216, z: 168.81314}
+    m_Value: {x: -136.37936, y: 1.3550854, z: 19.082737}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -822,13 +822,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.21459606, y: 0.021442961, z: -0.004639792, w: 0.9765424}
+    m_Target: {x: 0.045017432, y: -0.8229373, z: 0.065809235, w: 0.56267357}
     speed: 2
-    m_Value: {x: -0.21459606, y: -0.02144296, z: 0.004639792, w: -0.97654235}
+    m_Value: {x: 0.046495486, y: -0.824344, z: 0.06841153, w: 0.5600136}
   m_Size:
-    m_Target: 217.68463
+    m_Target: 84.428185
     speed: 2
-    m_Value: 208.31065
+    m_Value: 84.428185
   m_Ortho:
     m_Target: 0
     speed: 2
