@@ -2863,6 +2863,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 6684295394808222897, guid: fa8c3a9c5f7312e4e84b037e8ab1cc0c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d47dd3c5f4921714a80b1404d886c034, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa8c3a9c5f7312e4e84b037e8ab1cc0c, type: 3}
 --- !u!1 &490953996
@@ -3734,7 +3739,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3643298bfba8578469447eb0578f18d7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3643298bfba8578469447eb0578f18d7,
         type: 3}
@@ -8230,6 +8235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1_newModell_22.06@Running
       objectReference: {fileID: 0}
+    - target: {fileID: 8417361359673230750, guid: 7fdf123a7ef18224990840b214508d02,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f9ab7748d2f32f44b0386ff73aca352, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fdf123a7ef18224990840b214508d02, type: 3}
 --- !u!1001 &1217398774
@@ -9982,7 +9992,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2ff4de05d00837d449850204a9370318,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 85.428375
+      value: 88.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2ff4de05d00837d449850204a9370318,
         type: 3}
@@ -17089,7 +17099,7 @@ Transform:
   - {fileID: 23209279918206277}
   - {fileID: 6401764302129412397}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &7910171349474675866
 Transform:
