@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1007
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 421}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 90
+  controlID: 129
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 359
     height: 957
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 41
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 42
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_SimulatorState:
     controlPanelVisible: 0
-    controlPanelWidth: 0
+    controlPanelWidth: NaN
     controlPanelFoldoutKeys:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceUIExtension
     - UnityEditor.AdaptivePerformance.Samsung.Android.Editor.AdaptivePerformanceVRRUIExtension
@@ -404,7 +404,7 @@ MonoBehaviour:
     - '{"m_SerializationStates":{"thermalFoldout":false,"performanceFoldout":false,"developerFoldout":false,"indexerFoldout":false,"scalersFoldout":false,"deviceSettingsFoldout":false}}'
     - '{"m_SerializationStates":{"settingsFoldout":false,"vrrFoldout":false,"androidSystemFoldout":false}}'
     - '{}'
-    scale: 23
+    scale: 10
     fitToScreenEnabled: 1
     rotationDegree: 0
     highlightSafeAreaEnabled: 0
@@ -495,9 +495,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 133}
-    m_SelectedIDs: 62740000
-    m_LastClickedID: 29794
-    m_ExpandedIDs: 00000000287400002a7400002c7400002e74000030740000327400003474000036740000387400003a7400003c7400003e740000407400004a740000
+    m_SelectedIDs: 647d0000
+    m_LastClickedID: 32100
+    m_ExpandedIDs: 000000002a7b00002c7b00002e7b0000307b0000327b0000347b0000367b0000387b00003a7b00003c7b00003e7b0000407b0000427b0000627d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -525,7 +525,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000287400002a7400002c7400002e74000030740000327400003474000036740000387400003a7400003c7400003e74000040740000
+    m_ExpandedIDs: 000000002a7b00002c7b00002e7b0000307b0000327b0000347b0000367b0000387b00003a7b00003c7b00003e7b0000407b0000427b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -654,10 +654,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 241}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: a296ffffb89cffff46a0ffff44a1ffff1ac8ffffcaecffffd0f2ffffd0820000e8820000f28200000c8300001e830000f2980000e29a0000649b0000
+      scrollPos: {x: 0, y: 225}
+      m_SelectedIDs: 7cf0ffff
+      m_LastClickedID: -3972
+      m_ExpandedIDs: 20faffff406a0000306c0000b26c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -907,9 +907,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 470.0013, y: 1163.4043, z: 49.68515}
+    m_Target: {x: 628.2347, y: 428.76605, z: 142.58862}
     speed: 2
-    m_Value: {x: 470.0013, y: 1163.4043, z: 49.68515}
+    m_Value: {x: 628.2347, y: 428.76605, z: 142.58862}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -940,7 +940,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -958,11 +958,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.0000001277252, y: 0.00000014583729, z: -0.00000005847088, w: 1}
   m_Size:
-    m_Target: 1231.1586
+    m_Target: 73.61448
     speed: 2
-    m_Value: 1231.1586
+    m_Value: 73.61448
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -980,7 +980,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.2974225, y: 0.6592974, z: -0.3210651, w: -0.6113368}
+  m_LastSceneViewRotation: {x: 0.33836725, y: 0.38634947, z: -0.1549, w: 0.84395045}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
