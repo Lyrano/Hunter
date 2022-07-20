@@ -11,6 +11,11 @@ public class Hexe : MonoBehaviour
     [SerializeField]
     GameObject player;
 
+    void Awake()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
