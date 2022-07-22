@@ -11,6 +11,13 @@ public class ItemButton : MonoBehaviour
     [SerializeField]
     GameObject[] items;
 
+    [SerializeField]
+    GameObject[] walls;
+
+    [SerializeField]
+    GameObject Pfeil;
+
+
     NavMeshAgent agent;
    
     int index;
@@ -44,12 +51,41 @@ public class ItemButton : MonoBehaviour
     {
         if (itemActive)
         {
+
             if (items[0].activeSelf)
             {
                 StartCoroutine(speedboost());
+                itemActive = false;
             }
+            if (items[1].activeSelf) 
+            {
+                Debug.Log("Destroy");
+                foreach (GameObject wall in walls)
+                {
+                    if (wall.activeSelf)
+                        
+                    {
+                        if(wall.GetComponent<DestroyWall>().isCol)
+                            wall.SetActive(false);
+                        itemActive = false;
+                        
+                    }
+
+                        
+                    
+                }
+            }
+            if (items[2].activeSelf)
+            {
+                Pfeil.SetActive(true);
+            }
+
+
+
+
+                if (itemActive == false)
             ResetItem();
-            itemActive = false; 
+            
         }
     }
     IEnumerator speedboost()
@@ -57,6 +93,10 @@ public class ItemButton : MonoBehaviour
         agent.speed = 12f;
         yield return new WaitForSeconds(10f);
         agent.speed = 6f;
+        
+        agent.angularSpeed = 400f;
+        yield return new WaitForSeconds(10f);
+        agent.angularSpeed = 300f;
     }
 
 }

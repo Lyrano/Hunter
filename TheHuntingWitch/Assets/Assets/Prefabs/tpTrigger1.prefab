@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7538570982718615673}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 0, z: -1.565}
+  m_LocalPosition: {x: 0.342, y: 0, z: -1.663}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 7538570982973747198}
   - component: {fileID: 7538570982973747199}
   - component: {fileID: 7538570982973747192}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: tpTrigger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
