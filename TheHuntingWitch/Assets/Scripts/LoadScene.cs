@@ -14,4 +14,10 @@ public class LoadScene : MonoBehaviour
         SceneManager.LoadScene("GameScene");
         Time.timeScale = 1;
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
 }

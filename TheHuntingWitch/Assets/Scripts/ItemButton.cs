@@ -90,13 +90,13 @@ public class ItemButton : MonoBehaviour
     }
     IEnumerator speedboost()
     {
-        agent.speed = 12f;
+        agent.speed = 9f;
         yield return new WaitForSeconds(10f);
         agent.speed = 6f;
         
-        agent.angularSpeed = 400f;
-        yield return new WaitForSeconds(10f);
         agent.angularSpeed = 300f;
+        yield return new WaitForSeconds(10f);
+        agent.angularSpeed = 230f;
     }
 
 }
